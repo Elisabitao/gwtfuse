@@ -1,0 +1,61 @@
+
+/************************
+         HyperlinkButton 
+  ***********************/
+
+.HyperlinkButton {
+	float: left; 
+	margin-right: 5px;
+	margin-bottom: 3px;
+	cursor: pointer;
+}
+.HyperlinkButton-disabled {
+	float: left; 
+	margin-right: 5px;
+	margin-bottom: 3px;
+	cursor: default;
+}
+
+.HyperlinkButton-left, .HyperlinkButton-right, .HyperlinkButton-left-disabled, .HyperlinkButton-right-disabled {
+	background-repeat: no-repeat;
+	width: 6px;
+	height: 24px;
+	cursor: pointer;
+}
+.HyperlinkButton-left {
+	background-image: url('images/HyperlinkButton-left.png');
+}
+.HyperlinkButton-right{
+	background-image: url('images/HyperlinkButton-right.png');
+}
+
+.HyperlinkButton-left-disabled {
+	background-image: url('images/HyperlinkButton-left-disabled.png');
+}
+.HyperlinkButton-right-disabled{
+	background-image: url('images/HyperlinkButton-right-disabled.png');
+}
+
+.HyperlinkButton-bg {
+	background-image: url('images/HyperlinkButton-bg.png');
+	background-repeat: repeat-x;
+	font-size: 11px;
+	padding: 0px 5px 0px 5px;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+.HyperlinkButton-bg-disabled {
+	background-image: url('images/HyperlinkButton-bg-disabled.png');
+	background-repeat: repeat-x;
+	color: #ACACAC;
+	font-size: 11px;
+	padding: 0px 5px 0px 5px;
+	white-space: nowrap;
+}
+
+.HyperlinkButton-bg:hover {
+	cursor: pointer;
+	color: white;
+}
+
