@@ -1,0 +1,49 @@
+/************************
+    OutlookStackPanel 
+  ***********************/
+
+.OutlookStack {
+ border: 1px solid #7598c7;
+ font-size: 11px;
+ 
+}
+
+.OutlookStackHeader { 
+ border-bottom: 1px solid #7598c7;
+ background-image: url('images/OutlookStack-bg.png');
+ background-repeat: repeat-x;
+ white-space: nowrap;
+ cursor: pointer;
+ display: table-cell;
+ vertical-align: middle;
+ font-weight:bold;
+}
+
+.OutlookStackHeader-over { 
+ border-bottom: 1px solid #7598c7;
+ background-image: url('images/OutlookStack-bgover.png');
+ background-repeat: repeat-x;
+ white-space: nowrap;
+ cursor: pointer;
+ display: table-cell;
+ vertical-align: middle;
+}
+
+.OutlookStackHeader-selected { 
+ border-bottom: 1px solid #7598c7;
+ background-image: url('images/OutlookStack-bgselected.png');
+ background-repeat: repeat-x;
+ white-space: nowrap;
+ cursor: pointer;
+ display: table-cell;
+ vertical-align: middle;
+}
+.OutlookStackHeaderInner {
+ display: table-cell;
+ vertical-align: middle;
+}
+
+.OutlookStackContent {
+  border-bottom: 1px solid #7598c7;
+}
+

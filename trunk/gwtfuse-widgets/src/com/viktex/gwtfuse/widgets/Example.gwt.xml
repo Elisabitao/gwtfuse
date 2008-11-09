@@ -1,0 +1,13 @@
+<module>
+
+	<!-- Inherit the core Web Toolkit stuff.                  -->
+	<inherits name='com.google.gwt.user.User'/>
+
+	<!-- Specify the app entry point class.                   -->
+	<entry-point class='com.viktex.gwtfuse.widgets.client.Example'/>
+  
+  	<inherits name="com.google.gwt.user.theme.standard.Standard"/>
+  	
+  	<stylesheet src="HyperlinkButton.css"/>
+  	<stylesheet src="OutlookStackPanel.css"/>
+</module>
