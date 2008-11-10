@@ -44,7 +44,6 @@ public class OutlookStackPanel extends Composite {
 	private String DEFAULT_BUTTON_HIGHT = "31px";
 
 	private String DEFAULT_WIDTH = "200px";
-	private String DEFAULT_WIDTH_HACKED = "199px";
 
 	/**
 	 * Creates an empty stack panel.
